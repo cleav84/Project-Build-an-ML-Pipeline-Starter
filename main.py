@@ -68,7 +68,7 @@ def go(config: DictConfig):
                  parameters={
                      "csv": "clean_sample.csv:latest",
                      "ref": "clean_sample.csv:reference",
-                     "kl_threshold": config["data"]["kl_threshold"]
+                     "kl_threshold": config["data_check"]["kl_threshold"]
                  },
              )
 
